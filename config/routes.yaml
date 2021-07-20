@@ -1,3 +1,4 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+translation:
+  path: /api/word/{word}
+  controller: App\Controller\GetTranslationController::getTranslation
+  methods: GET
